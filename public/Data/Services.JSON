@@ -1,0 +1,11 @@
+[
+  {
+    "courseID": 1,
+    "courseName": "Learn English",
+    "instructor": "Nadif",
+    "price": 33,
+    "image": "www.google.com",
+    "description": "Random",
+    "rating": 4
+  }
+]

@@ -1,0 +1,12 @@
+.footer-container {
+  background-color: var(--color-dark-blue);
+}
+
+.footer-info ul li {
+  padding: 3px 0;
+  color: var(--color-muted) !important;
+}
+
+.footer-text-muted {
+  color: var(--color-muted) !important;
+}
