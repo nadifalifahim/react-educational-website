@@ -15,8 +15,8 @@ const Footer = (props) => {
           </p>
           <div className="my-5 d-flex">
             <i className="fs-2 fab fa-facebook me-4"></i>
-            <i class="fs-2 fab fa-instagram me-4"></i>
-            <i class="fs-2 fab fa-twitter me-4"></i>
+            <i className="fs-2 fab fa-instagram me-4"></i>
+            <i className="fs-2 fab fa-twitter me-4"></i>
           </div>
         </div>
         <div className="text-white mx-5 footer-info">
@@ -47,7 +47,7 @@ const Footer = (props) => {
           <div>
             <input type="text" placeholder="Your email address"></input>
             <button className="button-blue">
-              <i class="fas fa-arrow-right"></i>
+              <i className="fas fa-arrow-right"></i>
             </button>
           </div>
         </div>

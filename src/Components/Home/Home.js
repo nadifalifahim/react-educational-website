@@ -21,7 +21,7 @@ const Home = () => {
               experience.
             </h4>
             <button className="button-blue my-4 w-50 d-flex align-items-center justify-content-center">
-              View courses <i class="fas fa-chevron-right ms-2"></i>
+              View courses <i className="fas fa-chevron-right ms-2"></i>
             </button>
           </div>
           <div className="text-center">
