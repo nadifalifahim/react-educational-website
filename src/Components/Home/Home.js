@@ -1,10 +1,17 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Container, Row } from "react-bootstrap";
 import "./Home.css";
 import image1 from "./hero-1.jpg";
 import image2 from "./hero-sm-1.jpg";
+import CourseCards from "../CourseCards/CourseCards";
 
 const Home = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch("./Data/services.JSON")
+      .then((res) => res.json())
+      .then((data) => setServices(data));
+  }, []);
   return (
     <div>
       <Container fluid className="home-container  d-flex align-items-center">
@@ -34,15 +41,27 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="py-5">
-        <div>
-          <h1 className="fw-bold">
+      <Container className="my-5">
+        <div className="pt-5">
+          <h1 className="fw-bold ">
             Find The Right <br /> Online Course For You
           </h1>
           <p className="text-muted">
             You don't have to struggle alone, you've got our assistance and
             help.
           </p>
+        </div>
+        <div className="d-flex align-items-center justify-content-center">
+          <div className="mt-3 mb-5">
+            <Row xs={1} md={2} className="g-5">
+              {services.slice(0, 4).map((serviceInfo) => (
+                <CourseCards
+                  key={serviceInfo.courseID}
+                  serviceInfo={serviceInfo}
+                ></CourseCards>
+              ))}
+            </Row>
+          </div>
         </div>
         <div className="text-center">
           <button className="button-blue">See All Courses</button>

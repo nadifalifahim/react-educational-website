@@ -69,6 +69,12 @@ button {
   color: white;
 }
 
+.card-image-container {
+  height: 250px;
+  overflow: hidden;
+}
+
 .card-image {
-  height: 200px;
+  min-height: 100%;
+  min-width: 100%;
 }

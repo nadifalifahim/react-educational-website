@@ -18,7 +18,9 @@ const CourseCards = (props) => {
   return (
     <Col>
       <Card className="rounded shadow">
-        <Card.Img variant="top" src={image} className="card-image" />
+        <div className="card-image-container">
+          <Card.Img variant="top" src={image} className="card-image" />
+        </div>
         <Card.Body className="mx-3">
           <div className="d-flex justify-content-between my-3 text-muted ">
             <div>
@@ -41,8 +43,10 @@ const CourseCards = (props) => {
           <hr />
           <div className="d-flex justify-content-between align-items-center">
             <h5 className="fw-bold primary-color">$ {price.toFixed(2)}</h5>
-            <Link className="text-decoration-none">
-              <h6>Get details</h6>
+            <Link to="/services" className="text-decoration-none">
+              <h6>
+                Get details <i className="fas fa-chevron-right"></i>
+              </h6>
             </Link>
           </div>
         </Card.Body>
