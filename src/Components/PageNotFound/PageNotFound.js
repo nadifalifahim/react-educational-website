@@ -3,6 +3,7 @@ import "./PageNotFound.css";
 import errorimage from "./error.png";
 import { Link } from "react-router-dom";
 
+// Page not found component
 const PageNotFound = () => {
   return (
     <div className="d-flex align-items-center page-not-found-container">

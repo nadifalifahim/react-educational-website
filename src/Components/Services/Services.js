@@ -2,8 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import CourseCards from "../CourseCards/CourseCards";
 
+// Services Component
 const Services = () => {
+  // Service state
   const [services, setServices] = useState([]);
+
+  // Calling data from database
   useEffect(() => {
     fetch("./Data/services.JSON")
       .then((res) => res.json())

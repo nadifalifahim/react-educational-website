@@ -1,17 +1,19 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit } from "@fortawesome/free-solid-svg-icons";
-import { Container } from 'react-bootstrap';
-import About from './Components/AboutUs/About';
-import Footer from './Components/Footer/Footer';
-import PageNotFound from './Components/PageNotFound/PageNotFound';
-import Contact from './Components/Contact/Contact';
-import Services from './Components/Services/Services';
+import { Container } from "react-bootstrap";
+import About from "./Components/AboutUs/About";
+import Footer from "./Components/Footer/Footer";
+import PageNotFound from "./Components/PageNotFound/PageNotFound";
+import Contact from "./Components/Contact/Contact";
+import Services from "./Components/Services/Services";
 
+// Main App Component
 function App() {
+  // Keeping logo for multiple use
   const logo = <FontAwesomeIcon icon={faEdit}></FontAwesomeIcon>;
 
   return (
@@ -31,7 +33,7 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-           <Route exact path="/">
+          <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="*">

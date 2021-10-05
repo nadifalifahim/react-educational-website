@@ -5,16 +5,8 @@ import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const CourseCards = (props) => {
-  const {
-    courseName,
-    instructor,
-    price,
-    image,
-    description,
-    rating,
-    reviews,
-    lessons,
-  } = props.serviceInfo;
+  const { courseName, instructor, price, image, rating, reviews, lessons } =
+    props.serviceInfo;
   return (
     <Col>
       <Card className="rounded shadow">

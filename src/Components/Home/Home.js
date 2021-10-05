@@ -4,9 +4,14 @@ import "./Home.css";
 import image1 from "./hero-1.jpg";
 import image2 from "./hero-sm-1.jpg";
 import CourseCards from "../CourseCards/CourseCards";
+import GetInTouch from "../GetInTouch/GetInTouch";
 
+// Home Component
 const Home = () => {
+  // Holding servies
   const [services, setServices] = useState([]);
+
+  // Bringing data
   useEffect(() => {
     fetch("./Data/services.JSON")
       .then((res) => res.json())
@@ -66,6 +71,9 @@ const Home = () => {
         <div className="text-center">
           <button className="button-blue">See All Courses</button>
         </div>
+      </Container>
+      <Container className="w-50 pt-5 my-5">
+        <GetInTouch></GetInTouch>
       </Container>
     </div>
   );
