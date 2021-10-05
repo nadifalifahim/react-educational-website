@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import CourseCards from "../CourseCards/CourseCards";
 
 const Services = () => {
-  const [services, setServices] = useState();
+  const [services, setServices] = useState([]);
   useEffect(() => {
     fetch("./Data/services.JSON")
       .then((res) => res.json())
@@ -15,8 +15,11 @@ const Services = () => {
         <h1 className="text-center py-5 fw-bolder">Services</h1>
         <div>
           <Row xs={1} md={3} className="g-4">
-            {services.map((_, idx) => (
-              <CourseCards></CourseCards>
+            {services.map((serviceInfo) => (
+              <CourseCards
+                key={serviceInfo.courseID}
+                serviceInfo={serviceInfo}
+              ></CourseCards>
             ))}
           </Row>
         </div>
