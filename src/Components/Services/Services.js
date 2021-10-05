@@ -12,9 +12,9 @@ const Services = () => {
   return (
     <Container>
       <div>
-        <h1 className="text-center py-5 fw-bolder">Services</h1>
-        <div>
-          <Row xs={1} md={3} className="g-4">
+        <h1 className="text-center pt-5 pb-3 fw-bolder">Services</h1>
+        <div className="my-5">
+          <Row xs={1} md={3} className="g-5">
             {services.map((serviceInfo) => (
               <CourseCards
                 key={serviceInfo.courseID}

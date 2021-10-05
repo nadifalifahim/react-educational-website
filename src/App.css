@@ -68,3 +68,7 @@ button {
   background-color: var(--primary-color);
   color: white;
 }
+
+.card-image {
+  height: 200px;
+}

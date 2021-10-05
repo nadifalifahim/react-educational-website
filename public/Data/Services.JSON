@@ -1,11 +1,101 @@
 [
   {
     "courseID": 1,
-    "courseName": "Learn English",
-    "instructor": "Nadif",
-    "price": 33,
-    "image": "www.google.com",
+    "courseName": "Become a product Manager learn the skills & job.",
+    "instructor": "Jim Séchen",
+    "price": 16,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
     "description": "Random",
-    "rating": 4
+    "rating": 4.5,
+    "reviews": 44,
+    "lessons": 43
+  },
+  {
+    "courseID": 2,
+    "courseName": "Fundamentals of music theory Learn new",
+    "instructor": "Barry Tone",
+    "price": 32,
+    "image": "https://thumbs.dreamstime.com/b/high-school-students-laptops-digital-tablets-52846770.jpg",
+    "description": "Random",
+    "rating": 4.5,
+    "reviews": 37,
+    "lessons": 72
+  },
+  {
+    "courseID": 3,
+    "courseName": "Strategy law and organization Foundation",
+    "instructor": "Elon Gated",
+    "price": 46,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 3.5,
+    "reviews": 77,
+    "lessons": 26
+  },
+  {
+    "courseID": 4,
+    "courseName": "The business Intelligence analyst Course 2022",
+    "instructor": "Eleanor Fant",
+    "price": 49,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 2.5,
+    "reviews": 88,
+    "lessons": 33
+  },
+  {
+    "courseID": 5,
+    "courseName": "Build your media and Public presence",
+    "instructor": "Pelican Steve",
+    "price": 26,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 4.0,
+    "reviews": 87,
+    "lessons": 16
+  },
+  {
+    "courseID": 6,
+    "courseName": "Creative writing through Storytelling",
+    "instructor": "Elon Gated",
+    "price": 43,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 4.5,
+    "reviews": 44,
+    "lessons": 43
+  },
+  {
+    "courseID": 1,
+    "courseName": "Become a product Manager learn the skills & job.",
+    "instructor": "Eleanor Fant",
+    "price": 33,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 4.5,
+    "reviews": 44,
+    "lessons": 13
+  },
+  {
+    "courseID": 1,
+    "courseName": "Become a product Manager learn the skills & job.",
+    "instructor": "Pelican Steve",
+    "price": 44,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 4.5,
+    "reviews": 97,
+    "lessons": 18
+  },
+  {
+    "courseID": 1,
+    "courseName": "Become a product Manager learn the skills & job.",
+    "instructor": "Jim Séchen",
+    "price": 33,
+    "image": "https://th.bing.com/th/id/R.48f825b25403d18a143cd2cc8c6946b4?rik=cy665P0uU6pxTg&riu=http%3a%2f%2fwww.dfi.wa.gov%2fsites%2fdefault%2ffiles%2fhigh-school-classroom-fb.jpg&ehk=JA4rxCFD8hho1Nn5fe0pHy27vKL93T9KqbpeJTbReeI%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Random",
+    "rating": 4.5,
+    "reviews": 44,
+    "lessons": 43
   }
 ]

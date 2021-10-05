@@ -1,19 +1,50 @@
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const CourseCards = (props) => {
-  const { courseName, instructor, price, image, description, rating } =
-    props.serviceInfo;
+  const {
+    courseName,
+    instructor,
+    price,
+    image,
+    description,
+    rating,
+    reviews,
+    lessons,
+  } = props.serviceInfo;
   return (
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>{courseName}</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
+      <Card className="rounded shadow">
+        <Card.Img variant="top" src={image} className="card-image" />
+        <Card.Body className="mx-3">
+          <div className="d-flex justify-content-between my-3 text-muted ">
+            <div>
+              <i className="fas fa-book"></i>
+              <span className="ms-2 ">{lessons} lessons</span>
+            </div>
+            <div>
+              <FontAwesomeIcon
+                icon={faStar}
+                style={{ color: "orange" }}
+              ></FontAwesomeIcon>
+              <span>
+                {" "}
+                {rating} ({reviews})
+              </span>
+            </div>
+          </div>
+          <Card.Title className="fs-4">{courseName}</Card.Title>
+          <Card.Text className="text-muted">Instructor: {instructor}</Card.Text>
+          <hr />
+          <div className="d-flex justify-content-between align-items-center">
+            <h5 className="fw-bold primary-color">$ {price.toFixed(2)}</h5>
+            <Link className="text-decoration-none">
+              <h6>Get details</h6>
+            </Link>
+          </div>
         </Card.Body>
       </Card>
     </Col>
